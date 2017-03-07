@@ -1,0 +1,16 @@
+h1 {
+  background-color: red;
+  text-align: center;
+}
+
+@media only screen and (min-width: 640px) {
+  h1 {
+    background-color: green;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  h1 {
+    background-color: blue;
+  }
+}
