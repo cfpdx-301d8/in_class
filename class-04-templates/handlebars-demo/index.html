@@ -6,7 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Let's put the Handlebars template here, in a <script> tag -->
     <script id="neighborhood-template" type="text/x-handlebars-template">
-
+      <h1 class="city-name">{{ name }}</h1>
+      <h2>City of {{ city }}</h2>
+      <h2>Population Half: {{ population }}</h2>
+      <h2>Founded in {{ founded }} </h2>
+      {{{ body }}}
     </script>
   </head>
   <body>
