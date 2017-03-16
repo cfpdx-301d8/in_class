@@ -39,8 +39,5 @@ let newArr = doctors.reduce((acc, curr) => {
   }
   return acc
 }, [])
-// .filter()
-// .map()
-// .reduce() // REVIEW: Reminder to students that they can continue to chain
-              // these methods to continue their logic
+
 console.log(newArr)

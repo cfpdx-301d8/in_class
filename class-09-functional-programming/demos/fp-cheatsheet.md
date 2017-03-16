@@ -119,18 +119,6 @@ function smallEvens(arr) {
 
 var se = smallEvens(nums);
 
-//use filter
-
-```
-
-```javascript
-//use filter to de-dupe an array
-
-var nums = [1, 1, 2, 3, 3, 4];
-var deduped =
-  nums.filter(function(ele, ind, arr) {
-    return arr.indexOf(ele) === ind;
-  });
 ```
 
 ```javascript
